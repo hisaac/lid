@@ -1,0 +1,24 @@
+# Schema:
+#   - name: Name of the tool
+#   - url: URL to download the tool from
+#   - path: Path to the tool within the downloaded file
+#   - checksum: MD5 checksum of the downloaded file
+
+
+# Test of zipped binary
+- name: SwiftLint
+  url: https://github.com/realm/SwiftLint/releases/download/0.51.0/portable_swiftlint.zip
+  path: swiftlint
+  checksum: 6b6956895eaaaaa159d75770b38e8ad8
+
+# Test of raw binary
+- name: Firebase CLI
+  url: https://firebase.tools/bin/macos/v11.25.3
+  path: firebase
+  checksum: 767bb946bae5d45683f73802d27fcff7
+
+# Test of compressed source code
+- name: XcodeCoverageConverter
+  url: https://github.com/twittemb/XcodeCoverageConverter/archive/refs/tags/0.2.1.tar.gz
+  path: XcodeCoverageConverter-0.2.1/XcodeCoverageConverter
+  checksum: 3b8b2b3b5f1b1b1b1b1b1b1b1b1b1b1b
